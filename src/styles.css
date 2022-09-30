@@ -1,0 +1,97 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.tableWrapper {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  height: 400px;
+  width: 550px;
+  position: relative;
+}
+
+.table {
+  margin: 0 auto;
+  border-spacing: 0 10px;
+  border-collapse: separate;
+}
+
+.tableHeadName {
+  padding: 0 20px;
+}
+
+
+.tableFooter {
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+  left: 30px;
+  width: 65px;
+
+}
+
+.filterPagination {
+  width: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtersBtn{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    background-color: #fff;
+}
+
+.filtersBtn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #2b2eff;
+}
+    
+.dataItem {
+  text-align: center;
+  max-width: 130px;
+  max-height: 50px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.paginationBtns {
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.paginationBtns a {
+  padding: 2px 5px 5px;
+  margin: 0 8px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationBtns a:hover {
+  color: #fff;
+  background-color: #2b2eff;
+}
+
+.activeBtn a {
+  color: #fff;
+  background-color: #2b2eff; 
+}
